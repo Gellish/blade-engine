@@ -4,8 +4,8 @@ module.exports = {
   mode: "development",
   entry: "./src/index.js",
   output: {
-    filename: 'main.js',
-    path: path.resolve(__dirname, 'dist'),
+    filename: "main.js",
+    path: path.resolve(__dirname, "dist"),
   },
   devServer: {
     contentBase: "./dist",
@@ -13,7 +13,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.bjs$/,
+        test: /\.blade$/,
         use: [
           {
             loader: "@tarik02/bladejs-loader",

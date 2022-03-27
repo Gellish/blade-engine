@@ -1,8 +1,6 @@
-import view from "../views/view.bjs";
-import test from "../views/test.bjs";
-import app from "../views/layouts/app.bjs";
+import view from "../views/layouts/app.blade";
+// import view from "../views/index.blade";
 import { Runtime } from "@tarik02/bladejs";
-
 
 const runtime = new Runtime([
   {
